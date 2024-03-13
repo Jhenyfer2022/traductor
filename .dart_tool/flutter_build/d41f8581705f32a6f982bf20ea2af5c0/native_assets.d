@@ -1,0 +1,1 @@
+ C:\\Users\\sopor\\OneDrive\\Documentos\\Proyecto\ U\\Traductor\\traductor\\.dart_tool\\flutter_build\\d41f8581705f32a6f982bf20ea2af5c0\\native_assets.yaml: 

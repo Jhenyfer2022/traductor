@@ -1,0 +1,10 @@
+^C:\USERS\SOPOR\ONEDRIVE\DOCUMENTOS\PROYECTO U\TRADUCTOR\TRADUCTOR\BUILD\WINDOWS\X64\CMAKEFILES\D68E7FCBCC92F7E9549EA5C9C144A239\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
